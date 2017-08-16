@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Project06_DCtour</string>
 
+    <string name="name_variable">name_variable</string>
+    <string name="address_variable">address_variable</string>
+    <string name="summary_variable">summary_variable</string>
+    <string name="image_variable">image_variable</string>
+    <string name="url_variable">url_variable</string>
+
     <string name="museum">MUSEUM</string>
     <string name="food">FOOD</string>
     <string name="nightlife">NIGHTLIFE</string>

@@ -67,13 +67,11 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         final Intent itemIntent = new Intent(context, LocationActivity.class);
 
         //Put the properties of the Object to the intent
-//        itemIntent.putExtra("name_variable", name);
-//        itemIntent.putExtra(context.getString(R.string.address_var), address);
-//        itemIntent.putExtra(context.getString(R.string.desc_var), summary);
-//        itemIntent.putExtra(context.getString(R.string.img_var), imageID);
-//        itemIntent.putExtra(context.getString(R.string.site_var), url);
-
-        Log.i("Location Adapter", "itemIntent Created");
+        itemIntent.putExtra("name_variable", name);
+        itemIntent.putExtra(context.getString(R.string.address_variable), address);
+        itemIntent.putExtra(context.getString(R.string.summary_variable), summary);
+        itemIntent.putExtra(context.getString(R.string.image_variable), imageID);
+        itemIntent.putExtra(context.getString(R.string.url_variable), url);
 
         //Start the intent if the user taps on the list item
         listItemView.setOnClickListener(new View.OnClickListener() {
@@ -82,8 +80,6 @@ public class LocationAdapter extends ArrayAdapter<Location> {
                 context.startActivity(itemIntent);
             }
         });
-
-        Log.i("Location Adapter", "itemIntent excuted");
 
         return listItemView;
     }
