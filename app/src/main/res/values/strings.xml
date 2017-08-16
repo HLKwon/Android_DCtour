@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Project06_DCtour</string>
+
+    <string name="museum">MUSEUM</string>
+    <string name="food">FOOD</string>
+    <string name="nightlife">NIGHTLIFE</string>
+    <string name="popular">POPULAR</string>
+
+    <string name="air_space_museum">National Air and Space Museum</string>
+    <string name="air_space_address">600 Independence Ave SW, Washington, DC 20560</string>
+    <string name="air_space_summary">The National Air and Space Museum of the Smithsonian Institution, also called the NASM, is a museum in Washington, D.C.. It holds the largest collection of historic aircraft and spacecraft in the world.</string>
+    <string name="air_space_url">https://airandspace.si.edu/</string>
+    <string name="air_space_type">Museum - Air and Space Vehicles</string>
+
+    <string name="newseum">Newseum</string>
+    <string name="newseum_address">555 Pennsylvania Ave NW, Washington, DC 20001</string>
+    <string name="newseum_summary">The Newseum is an interactive museum that promotes free expression and the First Amendment to the United States Constitution, while tracing the evolution of communication.</string>
+    <string name="newseum_url">http://www.newseum.org/</string>
+    <string name="newseum_type">Museum - News Media</string>
+
+    <string name="rasika">Rasika</string>
+    <string name="rasika_address">633 D St NW, Washington, DC 20004</string>
+    <string name="rasika_summary">Sophisticated restaurant and lounge serving modern Indian food, including the popular crispy spinach.</string>
+    <string name="rasika_url">http://www.rasikarestaurant.com/</string>
+    <string name="rasika_type">Restaurant - Indian</string>
+
+    <string name="eighteenth">Eighteenth Street Lounge</string>
+    <string name="eighteenth_address">1212 18th St NW, Washington, DC 20036</string>
+    <string name="eigtheenth_summary">The Eighteenth Street Lounge is dedicated to providing Washington D.C. with acclaimed DJ talent from the region and as well hosting special guest DJs from all over the world. We also showcase live bands specializing in Reggae, Bossa Nova, Classic Jazz, and Funk - Tuesday through Saturday.</string>
+    <string name="eighteenth_url">http://www.eighteenthstreetlounge.com/</string>
+    <string name="eighteenth_type">Lounge Bar and Club</string>
+</resources>
