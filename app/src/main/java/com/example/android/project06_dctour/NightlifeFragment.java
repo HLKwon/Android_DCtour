@@ -33,7 +33,7 @@ public class NightlifeFragment extends Fragment {
         locations.add(new Location(getString(R.string.eighteenth),
                 getString(R.string.eighteenth_address),
                 getString(R.string.eigtheenth_summary),
-                R.drawable.eighteenth_st_lounge,
+                R.drawable.eighteenth_street_lounge,
                 getString(R.string.eighteenth_url),
                 getString(R.string.eighteenth_type)));
 
